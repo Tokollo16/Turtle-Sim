@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info
+writing ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/requires.txt
+writing top-level names to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/top_level.txt
+writing manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/ROS2/build/turtle_wall_avoider/build
+creating /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib
+creating /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider
+copying turtle_wall_avoider/__init__.py -> /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider
+copying turtle_wall_avoider/wall_avoider.py -> /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider
+running install
+running install_lib
+creating /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider
+copying /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider/__init__.py -> /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider
+copying /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider/wall_avoider.py -> /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider
+byte-compiling /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider/wall_avoider.py to wall_avoider.cpython-310.pyc
+running install_data
+creating /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index
+creating /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index/resource_index
+creating /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index/resource_index/packages
+copying resource/turtle_wall_avoider -> /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider
+running install_egg_info
+Copying ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info to /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider-0.1.0-py3.10.egg-info
+running install_scripts
+Installing wall_avoider script to /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/turtle_wall_avoider
+writing list of installed files to '/home/vboxuser/ROS2/build/turtle_wall_avoider/install.log'

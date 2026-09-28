@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.007107] (turtle_wall_avoider) JobQueued: {'identifier': 'turtle_wall_avoider', 'dependencies': OrderedDict()}
+[0.007219] (turtle_wall_avoider) JobStarted: {'identifier': 'turtle_wall_avoider'}
+[0.118090] (-) TimerEvent: {}
+[0.228293] (-) TimerEvent: {}
+[0.339512] (-) TimerEvent: {}
+[0.448887] (-) TimerEvent: {}
+[0.562812] (-) TimerEvent: {}
+[0.673216] (-) TimerEvent: {}
+[0.788405] (-) TimerEvent: {}
+[0.906932] (-) TimerEvent: {}
+[1.007420] (-) TimerEvent: {}
+[1.121035] (-) TimerEvent: {}
+[1.261199] (-) TimerEvent: {}
+[1.374658] (-) TimerEvent: {}
+[1.488652] (-) TimerEvent: {}
+[1.589057] (-) TimerEvent: {}
+[1.690818] (-) TimerEvent: {}
+[1.793499] (-) TimerEvent: {}
+[1.896317] (-) TimerEvent: {}
+[2.012745] (-) TimerEvent: {}
+[2.119584] (-) TimerEvent: {}
+[2.124166] (turtle_wall_avoider) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_wall_avoider', 'build', '--build-base', '/home/vboxuser/ROS2/build/turtle_wall_avoider/build', 'install', '--record', '/home/vboxuser/ROS2/build/turtle_wall_avoider/install.log', '--install-scripts', '$base/lib/turtle_wall_avoider', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ROS2/src/turtle_wall_avoider', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'LANGUAGE': 'en_ZA:en', 'USER': 'vboxuser', 'FONTCONFIG_PATH': '/etc/fonts', 'GIT_EDITOR': ':', 'GIO_MODULE_DIR': '/home/vboxuser/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/vboxuser', 'TERM_PROGRAM_VERSION': '1.137.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/263/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'SYSTEMD_EXEC_PID': '1406', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_All': 'en_US.UTF-8', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vboxuser/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Linux:@/tmp/.ICE-unix/1371,unix/Linux:/tmp/.ICE-unix/1371', 'GTK_EXE_PREFIX': '/snap/code/263/usr', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/977d82c9_5496_40e7_889d_4f39c5dda37e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/263/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/vboxuser/snap/code/263/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TZBFW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/vboxuser/snap/code/263/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ROS2/build/turtle_wall_avoider', 'GIT_MERGE_AUTOEDIT': 'no', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': '6911c03fd03330594e008eb2777d54cd', 'XDG_DATA_DIRS': '/home/vboxuser/snap/code/263/.local/share:/home/vboxuser/snap/code/263:/snap/code/263/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ROS2/build/turtle_wall_avoider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.250136] (-) TimerEvent: {}
+[2.361324] (-) TimerEvent: {}
+[2.470039] (-) TimerEvent: {}
+[2.581136] (-) TimerEvent: {}
+[2.706920] (-) TimerEvent: {}
+[2.797878] (turtle_wall_avoider) StdoutLine: {'line': b'running egg_info\n'}
+[2.798045] (turtle_wall_avoider) StdoutLine: {'line': b'creating ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info\n'}
+[2.804939] (turtle_wall_avoider) StdoutLine: {'line': b'writing ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/PKG-INFO\n'}
+[2.805126] (turtle_wall_avoider) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/dependency_links.txt\n'}
+[2.805172] (turtle_wall_avoider) StdoutLine: {'line': b'writing entry points to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/entry_points.txt\n'}
+[2.805209] (turtle_wall_avoider) StdoutLine: {'line': b'writing requirements to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/requires.txt\n'}
+[2.805276] (turtle_wall_avoider) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/top_level.txt\n'}
+[2.805340] (turtle_wall_avoider) StdoutLine: {'line': b"writing manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'\n"}
+[2.810130] (turtle_wall_avoider) StdoutLine: {'line': b"reading manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'\n"}
+[2.810290] (-) TimerEvent: {}
+[2.812185] (turtle_wall_avoider) StdoutLine: {'line': b"writing manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'\n"}
+[2.846339] (turtle_wall_avoider) StdoutLine: {'line': b'running build\n'}
+[2.846514] (turtle_wall_avoider) StdoutLine: {'line': b'running build_py\n'}
+[2.846559] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/build/turtle_wall_avoider/build\n'}
+[2.846607] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib\n'}
+[2.846640] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider\n'}
+[2.846673] (turtle_wall_avoider) StdoutLine: {'line': b'copying turtle_wall_avoider/__init__.py -> /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider\n'}
+[2.846743] (turtle_wall_avoider) StdoutLine: {'line': b'copying turtle_wall_avoider/wall_avoider.py -> /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider\n'}
+[2.846789] (turtle_wall_avoider) StdoutLine: {'line': b'running install\n'}
+[2.846826] (turtle_wall_avoider) StdoutLine: {'line': b'running install_lib\n'}
+[2.846860] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider\n'}
+[2.846895] (turtle_wall_avoider) StdoutLine: {'line': b'copying /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider/__init__.py -> /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider\n'}
+[2.846931] (turtle_wall_avoider) StdoutLine: {'line': b'copying /home/vboxuser/ROS2/build/turtle_wall_avoider/build/lib/turtle_wall_avoider/wall_avoider.py -> /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider\n'}
+[2.846966] (turtle_wall_avoider) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider/__init__.py to __init__.cpython-310.pyc\n'}
+[2.846999] (turtle_wall_avoider) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider/wall_avoider.py to wall_avoider.cpython-310.pyc\n'}
+[2.847032] (turtle_wall_avoider) StdoutLine: {'line': b'running install_data\n'}
+[2.847064] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index\n'}
+[2.847095] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index/resource_index\n'}
+[2.847127] (turtle_wall_avoider) StdoutLine: {'line': b'creating /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index/resource_index/packages\n'}
+[2.847158] (turtle_wall_avoider) StdoutLine: {'line': b'copying resource/turtle_wall_avoider -> /home/vboxuser/ROS2/install/turtle_wall_avoider/share/ament_index/resource_index/packages\n'}
+[2.847189] (turtle_wall_avoider) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider\n'}
+[2.847219] (turtle_wall_avoider) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.847274] (turtle_wall_avoider) StdoutLine: {'line': b'Copying ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info to /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider-0.1.0-py3.10.egg-info\n'}
+[2.847327] (turtle_wall_avoider) StdoutLine: {'line': b'running install_scripts\n'}
+[2.916707] (turtle_wall_avoider) StdoutLine: {'line': b'Installing wall_avoider script to /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/turtle_wall_avoider\n'}
+[2.916945] (-) TimerEvent: {}
+[2.940160] (turtle_wall_avoider) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ROS2/build/turtle_wall_avoider/install.log'\n"}
+[3.003312] (turtle_wall_avoider) CommandEnded: {'returncode': 0}
+[3.031030] (-) TimerEvent: {}
+[3.064557] (turtle_wall_avoider) JobEnded: {'identifier': 'turtle_wall_avoider', 'rc': 0}
+[3.065355] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: turtle-wall-avoider
+Version: 0.1.0
+Summary: Moves a turtlesim turtle around an inset route without hitting the walls.
+Home-page: UNKNOWN
+Maintainer: ROS 2 User
+Maintainer-email: user@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

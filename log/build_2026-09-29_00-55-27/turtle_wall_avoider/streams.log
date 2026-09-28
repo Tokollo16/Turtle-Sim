@@ -1,0 +1,21 @@
+[0.870s] Invoking command in '/home/vboxuser/ROS2/src/turtle_wall_avoider': PYTHONPATH=/home/vboxuser/ROS2/build/turtle_wall_avoider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_wall_avoider build --build-base /home/vboxuser/ROS2/build/turtle_wall_avoider/build install --record /home/vboxuser/ROS2/build/turtle_wall_avoider/install.log --install-scripts $base/lib/turtle_wall_avoider --single-version-externally-managed install_data
+[1.194s] running egg_info
+[1.195s] writing ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/PKG-INFO
+[1.198s] writing dependency_links to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/dependency_links.txt
+[1.201s] writing entry points to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/entry_points.txt
+[1.202s] writing requirements to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/requires.txt
+[1.203s] writing top-level names to ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/top_level.txt
+[1.209s] reading manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'
+[1.209s] writing manifest file '../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info/SOURCES.txt'
+[1.210s] running build
+[1.211s] running build_py
+[1.211s] running install
+[1.213s] running install_lib
+[1.216s] running install_data
+[1.216s] running install_egg_info
+[1.219s] removing '/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider-0.1.0-py3.10.egg-info' (and everything under it)
+[1.219s] Copying ../../build/turtle_wall_avoider/turtle_wall_avoider.egg-info to /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages/turtle_wall_avoider-0.1.0-py3.10.egg-info
+[1.231s] running install_scripts
+[1.252s] Installing wall_avoider script to /home/vboxuser/ROS2/install/turtle_wall_avoider/lib/turtle_wall_avoider
+[1.256s] writing list of installed files to '/home/vboxuser/ROS2/build/turtle_wall_avoider/install.log'
+[1.312s] Invoked command in '/home/vboxuser/ROS2/src/turtle_wall_avoider' returned '0': PYTHONPATH=/home/vboxuser/ROS2/build/turtle_wall_avoider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_wall_avoider build --build-base /home/vboxuser/ROS2/build/turtle_wall_avoider/build install --record /home/vboxuser/ROS2/build/turtle_wall_avoider/install.log --install-scripts $base/lib/turtle_wall_avoider --single-version-externally-managed install_data

@@ -1,0 +1,99 @@
+[0.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', '/home/vboxuser/ROS2/log', 'build', '--base-paths', '/home/vboxuser/ROS2/src', '--build-base', '/home/vboxuser/ROS2/build', '--install-base', '/home/vboxuser/ROS2/install', '--packages-select', 'turtle_wall_avoider']
+[0.320s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='/home/vboxuser/ROS2/log', log_level=None, verb_name='build', build_base='/home/vboxuser/ROS2/build', install_base='/home/vboxuser/ROS2/install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/vboxuser/ROS2/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtle_wall_avoider'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74584f8334f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74584f9cce20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74584f9cce20>>)
+[1.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.915s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/ROS2/src'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'ignore'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'ignore_ament_install'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extensions ['colcon_pkg']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'colcon_pkg'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extensions ['colcon_meta']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'colcon_meta'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extensions ['ros']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'ros'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extensions ['cmake', 'python']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'cmake'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'python'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extensions ['python_setup_py']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src) by extension 'python_setup_py'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extension 'ignore'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extension 'ignore_ament_install'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extensions ['colcon_pkg']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extension 'colcon_pkg'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extensions ['colcon_meta']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extension 'colcon_meta'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extensions ['ros']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/ROS2/src/turtle_wall_avoider) by extension 'ros'
+[2.004s] DEBUG:colcon.colcon_core.package_identification:Package '/home/vboxuser/ROS2/src/turtle_wall_avoider' with type 'ros.ament_python' and name 'turtle_wall_avoider'
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[2.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'cmake_args' from command line to 'None'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'cmake_target' from command line to 'None'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'cmake_clean_cache' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'cmake_clean_first' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'cmake_force_configure' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'ament_cmake_args' from command line to 'None'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'catkin_cmake_args' from command line to 'None'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'turtle_wall_avoider' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.408s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_wall_avoider' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/ROS2/build/turtle_wall_avoider', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/ROS2/install/turtle_wall_avoider', 'merge_install': False, 'path': '/home/vboxuser/ROS2/src/turtle_wall_avoider', 'symlink_install': False, 'test_result_base': None}
+[2.408s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.425s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/ROS2/src/turtle_wall_avoider' with build type 'ament_python'
+[2.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_wall_avoider', 'ament_prefix_path')
+[2.455s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/hook/ament_prefix_path.ps1'
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/hook/ament_prefix_path.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/hook/ament_prefix_path.sh'
+[2.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.413s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/ROS2/src/turtle_wall_avoider'
+[3.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.541s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: check, test, alias, build_clib, symlink_data, bdist_dumb, register, egg_info, clean, easy_install, install_data, setopt, sdist, build_ext, install_egg_info, build, install, upload_docs, bdist_rpm, install_scripts, build_py, dist_info, upload, install_lib, bdist, rotate, install_headers, build_scripts, saveopts, develop, bdist_egg
+[4.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/ROS2/src/turtle_wall_avoider': PYTHONPATH=/home/vboxuser/ROS2/build/turtle_wall_avoider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_wall_avoider build --build-base /home/vboxuser/ROS2/build/turtle_wall_avoider/build install --record /home/vboxuser/ROS2/build/turtle_wall_avoider/install.log --install-scripts $base/lib/turtle_wall_avoider --single-version-externally-managed install_data
+[5.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/ROS2/src/turtle_wall_avoider' returned '0': PYTHONPATH=/home/vboxuser/ROS2/build/turtle_wall_avoider/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_wall_avoider build --build-base /home/vboxuser/ROS2/build/turtle_wall_avoider/build install --record /home/vboxuser/ROS2/build/turtle_wall_avoider/install.log --install-scripts $base/lib/turtle_wall_avoider --single-version-externally-managed install_data
+[5.459s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider' for CMake module files
+[5.459s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider' for CMake config files
+[5.460s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider/lib'
+[5.460s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider/bin'
+[5.460s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/pkgconfig/turtle_wall_avoider.pc'
+[5.461s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider/lib/python3.10/site-packages'
+[5.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_wall_avoider', 'pythonpath')
+[5.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/hook/pythonpath.ps1'
+[5.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/hook/pythonpath.dsv'
+[5.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/hook/pythonpath.sh'
+[5.462s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ROS2/install/turtle_wall_avoider/bin'
+[5.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_wall_avoider)
+[5.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/package.ps1'
+[5.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/package.dsv'
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/package.sh'
+[5.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/package.bash'
+[5.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ROS2/install/turtle_wall_avoider/share/turtle_wall_avoider/package.zsh'
+[5.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/ROS2/install/turtle_wall_avoider/share/colcon-core/packages/turtle_wall_avoider)
+[5.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.485s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.518s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.668s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ROS2/install/local_setup.ps1'
+[6.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/ROS2/install/_local_setup_util_ps1.py'
+[6.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ROS2/install/setup.ps1'
+[6.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ROS2/install/local_setup.sh'
+[6.691s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/ROS2/install/_local_setup_util_sh.py'
+[6.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ROS2/install/setup.sh'
+[6.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ROS2/install/local_setup.bash'
+[6.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ROS2/install/setup.bash'
+[6.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ROS2/install/local_setup.zsh'
+[6.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ROS2/install/setup.zsh'

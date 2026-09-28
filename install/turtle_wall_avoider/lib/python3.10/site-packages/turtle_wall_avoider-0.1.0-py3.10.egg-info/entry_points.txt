@@ -1,0 +1,3 @@
+[console_scripts]
+wall_avoider = turtle_wall_avoider.wall_avoider:main
+
